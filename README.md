@@ -1,5 +1,10 @@
 # QR code generator
 
+## Setup
+
+1. Install qrencode. i.e. `brew install qrencode`
+2. Install imagemagick. i.e. `brew install imagemagick`
+
 ## Generating QRs
 
 1. create a file named ids.tsv. The file should have as first column the UUIDs of the table and in the second column the number of the table
