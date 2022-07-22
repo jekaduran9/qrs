@@ -16,6 +16,6 @@ do
   TABLE=$(echo $p | awk '{print $2}')
   echo "url: $URL"
   echo "table: $TABLE"
-  qrencode -o $DIR_OUT/$TABLE.black.png $URL
+  qrencode -o $DIR_OUT/$TABLE.png $URL
 done < $IDS
 
