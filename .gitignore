@@ -1,4 +1,7 @@
 *.png
 *.svg
+!*.sample.svg
+*.tsv
+!*.sample.tsv
 .DS_Store
 *.ai
